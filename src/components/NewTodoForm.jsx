@@ -1,6 +1,6 @@
 import { useState } from "react";
 import useSound from "use-sound";
-import tick from "../../public/tick.mp3";
+import tick from "/tick.mp3";
 
 export function NewTodoForm({ onSubmit }) {
   //* hooks

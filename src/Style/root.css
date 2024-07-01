@@ -17,5 +17,5 @@
 
 @font-face {
   font-family: myFont;
-  src: url("./public/calibri/Calibri Regular.ttf");
+  src: url("/calibri/Calibri Regular.ttf");
 }

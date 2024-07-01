@@ -1,7 +1,7 @@
 import React from "react";
 import useSound from "use-sound";
-import tick from "../../public/delete.mp3";
-import checked from "../../public/completed.mp3";
+import deleteSound from "/delete.mp3";
+import checked from "/completed.mp3";
 
 const TodoItems = ({
   id,
@@ -11,7 +11,7 @@ const TodoItems = ({
   toggleTodo,
   showFinished,
 }) => {
-  const [play] = useSound(tick);
+  const [play] = useSound(deleteSound);
   const [play2] = useSound(checked);
   return (
     (showFinished || !completed) && (
@@ -47,7 +47,7 @@ const TodoItems = ({
                 play();
                 deleteTodo(id);
               }}>
-              <img src="./public/trash4.png" alt="" />
+              <img src="/trash4.png" alt="" />
             </button>
           </div>
         </div>
