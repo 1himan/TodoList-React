@@ -1,0 +1,9 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Customize the scrollbar */
+::-webkit-scrollbar {
+  width: 0.0000001px;
+}

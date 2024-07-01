@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* what does this property mean */
+  box-sizing: border-box;
+}
+#root {
+  color: white;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url(https://wallpapercave.com/wp/wp12418322.jpg);
+  background-size: cover;
+  font-family: myFont;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url("./public/calibri/Calibri Regular.ttf");
+}

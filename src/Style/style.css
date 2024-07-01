@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.new-todo-form {
+  margin-bottom: 2rem;
+}
+
+.todo-list {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+ul {
+  list-style: none;
+}
+
+.todo-items {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.input-add {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form-row input {
+  border-radius: 1rem;
+  width: 15rem;
+  height: 1.5rem;
+  margin: auto;
+  border: none;
+}
+.new-item-form .label {
+  margin-bottom: 1.5rem;
+  margin-left: 0.1rem;
+}
+.btn {
+  padding: 0.2rem 0.5rem;
+  margin-left: 0.7rem;
+  border-radius: 1rem;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+}
