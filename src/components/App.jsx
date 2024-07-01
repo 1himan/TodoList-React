@@ -12,7 +12,7 @@ function App() {
   });
   const [showFinished, setshowFinished] = useState(true);
   const [eye, seteye] = useState(
-    <i class="fa-solid fa-eye" style={{ color: "#ffffff;" }}></i>
+    <i className="fas fa-eye-slash" style={{ color: "#ffffff;" }}></i>
   );
 
   useEffect(() => {
